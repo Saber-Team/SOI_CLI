@@ -1,4 +1,7 @@
 SOI_CLI
 =======
 
-Command Line Interface of SOI
+soi打包工具通过命令行交互的接口.
+安装：
+npm install -g soi-cli
+npm install -g soi

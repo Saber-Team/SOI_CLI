@@ -31,22 +31,16 @@ var requireCliAndRun = function(soiPath) {
 
 // TODO remove once we don't care about Karma 0.10
 var soiCliRun = function(soiCli, soiPath) {
-  var config = soiCli.process();
-
+  //var config = soiCli.process();
+/*
   switch (config.cmd) {
-  case 'start':
-    require(path.join(soiPath, 'lib', 'server')).start(config);
-    break;
-  case 'run':
-    require(path.join(soiPath, 'lib', 'runner')).run(config);
-    break;
-  case 'init':
-    require(path.join(soiPath, 'lib', 'init')).init(config);
-    break;
-  case 'completion':
-    require(path.join(soiPath, 'lib', 'completion')).completion(config);
-    break;
-  }
+    case 'run':
+      require(path.join(soiPath, 'lib', 'runner')).run(config);
+      break;
+    case 'init':
+      require(path.join(soiPath, 'lib', 'init')).init(config);
+      break;
+  }*/
 };
 
 
