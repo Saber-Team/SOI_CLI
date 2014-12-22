@@ -18,20 +18,20 @@ var requireCliAndRun = function(soiPath) {
   if (process.argv.indexOf('--which') !== -1) {
     console.log(soiPath);
   } else {
-    var soiCli = require(path.join(soiPath, 'lib', 'cli'));
+    var soi = require(path.join(soiPath, 'lib', 'cli'));
 
-    if (soiCli.run) {
-      soiCli.run();
+    if (soi.run) {
+      soi.run();
     } else {
-      soiCliRun(soiCli, soiPath);
+      soiCliRun(soi, soiPath);
     }
   }
 };
 
 
 // TODO remove once we don't care about Karma 0.10
-var soiCliRun = function(soiCli, soiPath) {
-  //var config = soiCli.process();
+var soiCliRun = function(soi, soiPath) {
+  //var config = soi.process();
 /*
   switch (config.cmd) {
     case 'run':
@@ -44,7 +44,7 @@ var soiCliRun = function(soiCli, soiPath) {
 };
 
 
-resolve('soi', {basedir: process.cwd()}, function(err, path2soi) {
+resolve('soi', { basedir: process.cwd() }, function(err, path2soi) {
   // There is a local version, let's use it.
   if (!err) {
     return requireCliAndRun(path2soi.replace(/(\/|\\)lib(\/|\\)index\.js/, ''));
