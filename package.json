@@ -1,0 +1,34 @@
+{
+  "name": "soi-cli",
+  "version": "0.1.0",
+  "description": "Command Line Interface for soi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saber-Team/SOI_CLI.git"
+  },
+  "keywords": [
+    "javascript",
+    "build tools",
+    "soi"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "soi": "./bin/soi"
+  },
+  "engines": {
+    "node": "~0.10"
+  },
+  "author": "zmike86",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saber-Team/SOI_CLI/issues"
+  },
+  "homepage": "https://github.com/Saber-Team/SOI_CLI",
+  "dependencies": {
+    "resolve": "^1.0.0"
+  }
+}
