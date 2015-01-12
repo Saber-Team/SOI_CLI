@@ -1,10 +1,10 @@
 {
   "name": "soi-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Command Line Interface for soi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Saber-Team/SOI_CLI.git"
+    "url": "https://github.com/Saber-Team/soi-cli.git"
   },
   "keywords": [
     "javascript",
@@ -21,9 +21,9 @@
   "author": "zmike86",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Saber-Team/SOI_CLI/issues"
+    "url": "https://github.com/Saber-Team/soi-cli/issues"
   },
-  "homepage": "https://github.com/Saber-Team/SOI_CLI",
+  "homepage": "https://github.com/Saber-Team/soi-cli",
   "dependencies": {
     "resolve": "^1.0.0"
   }
