@@ -49,9 +49,9 @@ var soiCliRun = function(soi, soiPath) {
 // check current directory first
 resolve('soi', { basedir: process.cwd() }, function(err, path2soi) {
 
-  console.log('path2soi: ' + path2soi);
-  console.log('process.cwd(): ' + process.cwd());
-  console.log('err: ' + err);
+  // console.log('path2soi: ' + path2soi);
+  // console.log('process.cwd(): ' + process.cwd());
+  // console.log('err: ' + err);
 
   // if there has a local version, let's use it.
   // I am sure the boot.js in soi directory will not be changed
